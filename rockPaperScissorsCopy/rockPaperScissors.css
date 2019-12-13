@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 100px;
+  /* margin-left: 25%; */
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  line-height: 40px;
+  color: #FD5F00;
+}
+
+p {
+  width: 46%;
+  /* margin-left: 27%; */
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+}
+
+body p + p {
+  width: 45%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+}
+
+.scoreboard {
+  width: 29%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+h2 {
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+}
+
+
+.scoreboard td {
+  font-size: 3em;
+  width:65%;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+}
+
+.scoreboard th {
+  font-size: 2em;
+  width:50%;
+  margin-left: auto;
+  margin-right:auto;
+  color: white;
+}
+
+.you {
+  color: blue;
+}
+
+.bot {
+  color: limeGreen;
+}
+
+button {
+  padding: 1%;
+  font-size: 1em;
+  background-color: #FD5F00;
+  margin-top: 40px;
+}
+
+
+#status {
+  margin-top: 20px;
+  color: red;
+}
+
+body{
+background-color: black;
+  /* background: url(plane.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}

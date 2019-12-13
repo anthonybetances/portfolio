@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin: 200px 0 0 0;
+}
+
+.month {
+  float: left;
+  width: 55%;
+  padding-left: 36%;
+}
+
+.day {
+  float: left;
+  width: 45%;
+}
+
+.day label, .month label {
+  font-size: 1.2em;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+button {
+  width: 10%;
+  height: 35px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  background-color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+  padding-left: 45%;
+}
+
+#statement {
+  color:white;
+  width: 70%;
+  margin: 0 10% 0 15%;
+  text-align: center;
+}
+
+#month {
+  font-size: 1em;
+  width: 62%;
+  height: 30px;
+}
+
+#day {
+  font-size: 1em;
+  width: 12%;
+  height: 30px;
+}
+
+body {
+background: url(sky.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 485px;
+}
+
+@media screen and (max-width: 1024px) {
+  .month, .day {
+    width: 100%;
+    float: none;
+    font-size: 1.3em;
+  }
+
+  .day {
+    padding-left: 36%;
+  }
+
+  #month, #day {
+    color: white;
+    font-size: 1.3em;
+  }
+
+  button {
+    width: 30%;
+    height: 50px;
+  }
+
+
+  #result {
+    padding: 0%;
+    text-align: center;
+  }
+
+  #day {
+    width: 40%;
+    height: 40px;
+  }
+
+  #month {
+    /* width: 20%; */
+    height: 40px;
+  }
